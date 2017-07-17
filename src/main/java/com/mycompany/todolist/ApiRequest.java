@@ -5,6 +5,14 @@
  */
 package com.mycompany.todolist;
 
+import java.util.Date;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Table;
+import org.springframework.data.annotation.Id;
+
 /**
  *
  * @author isaac
@@ -40,5 +48,4 @@ public class ApiRequest {
     public void setRequestTime(Date requestTime) {
         this.requestTime = requestTime;
     }
-}
 }
