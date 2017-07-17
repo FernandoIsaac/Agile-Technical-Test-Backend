@@ -1,29 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package com.mycompany.todolist;
+package com.mycuteblog;
 
-import com.mycompany.todolist.ApiRequest;
-import com.mycompany.todolist.ApiRequestService;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.logging.Logger;
-import static org.hibernate.criterion.Restrictions.gt;
-import static org.hibernate.criterion.Restrictions.lt;
-import org.hibernate.validator.internal.util.logging.LoggerFactory;
+import com.mycuteblog.model.ApiRequest;
+import com.mycuteblog.service.ApiRequestService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- *
- * @author isaac
- */
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 @RestController
 @EnableAutoConfiguration
 public class ApiRequestController {
