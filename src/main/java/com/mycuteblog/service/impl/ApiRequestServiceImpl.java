@@ -18,4 +18,9 @@ public class ApiRequestServiceImpl implements ApiRequestService {
     public void create(ApiRequest apiRequest) {
         apiRequestDao.create(apiRequest);
     }
+    
+    @Override
+    public void testExample(){
+        System.out.println("This is a test");
+    }
 }
