@@ -1,3 +1,4 @@
+com\mycuteblog\MyApp.class
 com\mycuteblog\ApiRequestController.class
 com\mycuteblog\service\ApiRequestService.class
 com\mycuteblog\WebApplication.class

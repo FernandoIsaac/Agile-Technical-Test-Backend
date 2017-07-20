@@ -37,6 +37,12 @@
             <scope>test</scope>
             <type>jar</type>
         </dependency>
+        <dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    
+</dependency>
+        
     </dependencies>
 
     <!--create an executable jar-->
